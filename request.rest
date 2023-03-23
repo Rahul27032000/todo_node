@@ -1,0 +1,27 @@
+GET  http://localhost:3000/
+
+###
+
+POST   http://localhost:3000/
+Content-Type: application/json
+
+{
+    "title":"something",
+    "desc":"something",
+    "status":"Completed"
+}
+
+###
+
+GET  http://localhost:3000/641acb4b205fac53e105e990
+
+
+###
+
+
+PATCH http://localhost:3000/641acb4b205fac53e105e990
+Content-Type: application/json
+
+{
+    "title":"Title 1 updated again"
+}
